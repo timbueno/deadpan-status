@@ -1,5 +1,20 @@
 # Deadpan Status setup
 
+## Deployment checkpoint — 2026-09-10
+
+`GH_PAT` is configured. [Setup CI](https://github.com/timbueno/deadpan-status/actions/runs/34491647510)
+and [Uptime CI](https://github.com/timbueno/deadpan-status/actions/runs/34491784376)
+passed; both Leaf endpoints are up from GitHub runners. Setup CI also built and
+published the site, creating `gh-pages`, so a separate initial Static Site CI run
+was unnecessary. The generated page was previewed locally and successfully loaded
+both services from the public repository.
+
+GitHub Pages is configured to serve `gh-pages` at `/(root)` with custom domain
+`status.deadpan.io`; its Pages deployment succeeded. Cloudflare has a DNS-only
+CNAME `status` → `timbueno.github.io` (TTL 300). DNS propagation and GitHub
+certificate provisioning remain pending; enable **Enforce HTTPS** when available
+and verify the custom-domain page before marking launch complete.
+
 ## Automation credential
 
 Create a fine-grained GitHub personal access token restricted to
