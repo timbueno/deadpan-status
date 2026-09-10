@@ -33,7 +33,7 @@ workflowSchedule:
 
 status-website:
   cname: status.deadpan.io
-  logoUrl: https://raw.githubusercontent.com/timbueno/deadpan-status/master/assets/status.svg
+  logoUrl: https://raw.githubusercontent.com/timbueno/deadpan-status/master/assets/deadpan-circle-type.svg
   name: Deadpan Status
   introTitle: "**Service status for Deadpan apps.**"
   introMessage: Current availability and recent incidents for our app services. Automated checks run approximately every five minutes.
