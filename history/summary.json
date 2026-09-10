@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "name": "Leaf - KOSync",
+    "url": "https://kosync.deadpan.io/healthcheck",
+    "icon": "https://icons.duckduckgo.com/ip3/kosync.deadpan.io.ico",
+    "slug": "leaf-kosync",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 1205,
+    "timeDay": 1205,
+    "timeWeek": 1205,
+    "timeMonth": 1205,
+    "timeYear": 1205,
+    "dailyMinutesDown": {}
+  },
+  {
+    "name": "Leaf - API",
+    "url": "https://api.deadpan.io/leaf/health",
+    "icon": "https://icons.duckduckgo.com/ip3/api.deadpan.io.ico",
+    "slug": "leaf-api",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 667,
+    "timeDay": 667,
+    "timeWeek": 667,
+    "timeMonth": 667,
+    "timeYear": 667,
+    "dailyMinutesDown": {}
+  }
+]
