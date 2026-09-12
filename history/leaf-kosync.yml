@@ -1,7 +1,7 @@
 url: https://kosync.deadpan.io/healthcheck
-status: down
-code: 530
-responseTime: 72
-lastUpdated: 2026-09-12T03:30:50.552Z
+status: up
+code: 200
+responseTime: 129
+lastUpdated: 2026-09-12T04:01:03.187Z
 startTime: 2026-09-10T14:50:12.452Z
 generator: Upptime <https://github.com/upptime/upptime>
