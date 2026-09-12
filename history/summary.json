@@ -4,18 +4,20 @@
     "url": "https://kosync.deadpan.io/healthcheck",
     "icon": "https://icons.duckduckgo.com/ip3/kosync.deadpan.io.ico",
     "slug": "leaf-kosync",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 411,
-    "timeDay": 364,
-    "timeWeek": 411,
-    "timeMonth": 411,
-    "timeYear": 411,
-    "dailyMinutesDown": {}
+    "status": "down",
+    "uptime": "98.65%",
+    "uptimeDay": "97.90%",
+    "uptimeWeek": "98.65%",
+    "uptimeMonth": "98.65%",
+    "uptimeYear": "98.65%",
+    "time": 401,
+    "timeDay": 353,
+    "timeWeek": 401,
+    "timeMonth": 401,
+    "timeYear": 401,
+    "dailyMinutesDown": {
+      "2026-09-12": 30
+    }
   },
   {
     "name": "Leaf - API",
