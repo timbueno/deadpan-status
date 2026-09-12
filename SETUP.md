@@ -85,3 +85,22 @@ infrastructure is independent of this status board.
 References: [Upptime setup](https://upptime.js.org/docs/get-started/),
 [configuration](https://upptime.js.org/docs/configuration/),
 [GitHub Pages custom domains](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
+
+## Summary freshness
+
+The custom `refresh-summary.yml` workflow runs after successful `Uptime CI`
+completion on master, including externally dispatched five-minute checks. It also
+runs after the daily `Summary CI` to reconcile that output. It does not trigger
+itself and can be started manually. Keep this custom file separate from generated
+Upptime workflows so template updates preserve the dependency.
+
+The workflow uses the same concurrency group as Upptime's writers and checks out
+current master after acquiring it. It regenerates statistics with Upptime, then
+sets each current status from the checked-out `history/<slug>.yml` and updates the
+README status column. This avoids relying on GitHub's commit-history API to have
+indexed a just-pushed recovery. The public site fetches `history/summary.json`;
+a site rebuild is unnecessary, though browser/CDN caching can delay display.
+Failed or canceled uptime runs do not trigger a refresh. A successful check that
+finds a service down does trigger one: workflow success is not service health.
+
+Run regression checks with `python3 -m unittest discover -s scripts -p 'test_*.py'`.
