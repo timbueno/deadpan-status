@@ -5,19 +5,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/kosync.deadpan.io.ico",
     "slug": "leaf-kosync",
     "status": "up",
-    "uptime": "99.58%",
+    "uptime": "100.00%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "99.58%",
-    "uptimeMonth": "99.58%",
-    "uptimeYear": "99.58%",
-    "time": 341,
-    "timeDay": 307,
-    "timeWeek": 341,
-    "timeMonth": 341,
-    "timeYear": 341,
-    "dailyMinutesDown": {
-      "2026-09-12": 30
-    }
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 346,
+    "timeDay": 323,
+    "timeWeek": 346,
+    "timeMonth": 346,
+    "timeYear": 346,
+    "dailyMinutesDown": {}
   },
   {
     "name": "Leaf - API",
@@ -30,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 155,
-    "timeDay": 140,
-    "timeWeek": 155,
-    "timeMonth": 155,
-    "timeYear": 155,
+    "time": 156,
+    "timeDay": 147,
+    "timeWeek": 156,
+    "timeMonth": 156,
+    "timeYear": 156,
     "dailyMinutesDown": {}
   }
 ]
