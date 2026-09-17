@@ -35,6 +35,12 @@ status-website:
   cname: status.deadpan.io
   logoUrl: https://raw.githubusercontent.com/timbueno/deadpan-status/master/assets/deadpan-circle-type.svg
   name: Deadpan Status
+  css: |
+    @media (prefers-color-scheme: dark) {
+      nav .logo img {
+        filter: invert(1);
+      }
+    }
   introTitle: "**Service status for Deadpan apps.**"
   introMessage: Current availability and recent incidents for our app services. Automated checks run approximately every five minutes.
   navbar:
