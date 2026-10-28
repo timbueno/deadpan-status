@@ -11,6 +11,12 @@ skipTopicsUpdate: true
 skipHomepageUpdate: true
 
 sites:
+  - name: ScanBoy - API
+    slug: scanboy-api
+    url: https://api.deadpan.io/scanboy/v1/health
+    expectedStatusCodes:
+      - 200
+    __dangerous__body_down_if_text_missing: '"status":"ok"'
   - name: Leaf - KOSync
     slug: leaf-kosync
     url: https://kosync.deadpan.io/healthcheck
