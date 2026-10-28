@@ -1,23 +1,5 @@
 [
   {
-    "name": "ScanBoy - API",
-    "url": "https://api.deadpan.io/scanboy/v1/health",
-    "icon": "https://icons.duckduckgo.com/ip3/api.deadpan.io.ico",
-    "slug": "scanboy-api",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 0,
-    "timeDay": 0,
-    "timeWeek": 0,
-    "timeMonth": 0,
-    "timeYear": 0,
-    "dailyMinutesDown": {}
-  },
-  {
     "name": "Leaf - KOSync",
     "url": "https://kosync.deadpan.io/healthcheck",
     "icon": "https://icons.duckduckgo.com/ip3/kosync.deadpan.io.ico",
