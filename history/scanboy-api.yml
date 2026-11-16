@@ -1,7 +1,7 @@
 url: https://api.deadpan.io/scanboy/v1/health
 status: up
 code: 200
-responseTime: 668
-lastUpdated: 2026-11-16T18:17:30.964Z
+responseTime: 350
+lastUpdated: 2026-11-16T19:17:35.301Z
 startTime: 2026-10-28T18:44:50.930Z
 generator: Upptime <https://github.com/upptime/upptime>
